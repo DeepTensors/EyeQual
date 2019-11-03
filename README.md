@@ -1,5 +1,7 @@
 # EyeQual
-Given a Retinal Image, determine its quality( high or low)
+Given a Retinal Image, determine its quality( high or low). I have tried to implement the paper 
+##### EyeQual: Accurate, Explainable, Retinal ImageQuality Assessment
+
 ## Usage 
 To train the network \\
 
