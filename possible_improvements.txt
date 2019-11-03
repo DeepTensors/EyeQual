@@ -1,0 +1,10 @@
+Alternatives / improvements
+
+1) Rather than trying the max pooling layer, we can use a stride of 2 during convolution. Maxpool reduces the size of the feature map by taking the maximum activation with a certain kernel size which might lead to loss of important features as well. To reduce the size as well as preserve some important features, we can use a stride of 2.
+
+2) Rather than using a 512x 512 image, we can design a network that can take any size input and create a specific output feature map. For example, something like Spatial Pyramid Pooling Network(SPPnet) 
+
+Drawback
+
+1)The DRIMB dataset seems to be from the same distribution. Therefore, the model learnt will not be able to generalize to a dataset from a different distribution. A bit more data of varying resolution, size etc would help generalization better
+
