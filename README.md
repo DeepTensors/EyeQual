@@ -3,7 +3,7 @@ Given a Retinal Image, determine its quality( high or low). I have tried to impl
 ##### EyeQual: Accurate, Explainable, Retinal ImageQuality Assessment
 
 ## Usage 
-To train the network \
+To train the network 
 
 ##### python train.py --pooling WAP -b 4 -e 10 -imsize 128
 #### Options
