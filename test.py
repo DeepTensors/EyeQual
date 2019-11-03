@@ -17,6 +17,10 @@ def test(model, args):
     img = cv2.resize(img, (args.image_size, args.image_size))
     X_test = np.reshape(img, (1, img.shape[0],  img.shape[1], img.shape[2]))
     y_pred = model.predict(X_test)
+    if(y_pred < 0.5):
+        print("Good Image")
+    else:
+        print("Bad image")
 
     return y_pred, X_test
 
